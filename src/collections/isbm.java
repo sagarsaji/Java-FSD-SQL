@@ -17,7 +17,7 @@ public class isbm {
 		for(int i=1;i<=10;i++) {
 			long lastnum = num%10;
 			sum += i*lastnum;
-			num=num/10;y
+			num=num/10;
 		}
 		
 		if(sum%11==0) {
